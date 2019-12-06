@@ -1,0 +1,23 @@
+{
+  "name": "electron-calculater",
+  "version": "1.0.0",
+  "description": "Electronで電卓つくるんぜ",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kduxwr/electron-calculater.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kduxwr/electron-calculater/issues"
+  },
+  "homepage": "https://github.com/kduxwr/electron-calculater#readme",
+  "dependencies": {
+    "electron": "^7.1.3"
+  }
+}
