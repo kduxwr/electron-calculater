@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>First Electron App</title>
-  </head>
-  <body>
-    <h1>First Electron App</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>electron-calculater</title>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <div class="output-area">
+      <p id="output-text"></p>
+    </div>
+    <!--output-area-->
+    <div class="input-area">
+      <ul class="row">
+        <li class="con">C</li>
+        <li class="con">+/-</li>
+        <li class="con">％</li>
+        <li class="ope">÷</li>
+      </ul>
+      <ul class="row">
+        <li class="num">7</li>
+        <li class="num">8</li>
+        <li class="num">9</li>
+        <li class="ope">×</li>
+      </ul>
+      <ul class="row">
+        <li class="num">4</li>
+        <li class="num">5</li>
+        <li class="num">6</li>
+        <li class="ope">−</li>
+      </ul>
+      <ul class="row">
+        <li class="num">1</li>
+        <li class="num">2</li>
+        <li class="num">3</li>
+        <li class="ope">＋</li>
+      </ul>
+      <ul class="row">
+        <li class="num zero">0</li>
+        <li class="num">.</li>
+        <li class="ope">＝</li>
+      </ul>
+    </div>
+    <!--input-area-->
+  </div>
+  <!--page-wrapper-->  
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
 </html>

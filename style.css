@@ -1,0 +1,67 @@
+html {
+     font-family: 'Hiragino Kaku Gothic Std';
+     user-select: none;
+}
+
+body {
+    color: white;
+    background-color: gray;
+}
+
+.output-area {
+    background-color: gray;
+}
+#output-text {
+    margin-top: 16px;
+    padding: 0 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    font-size: 40px;
+}
+
+.num {
+    background-color: gray;
+}
+.num:active {
+    background-color: dimgray;
+}
+
+.ope {
+    background-color: orange;
+}
+.ope:active {
+    background-color: darkorange;
+}
+
+.con {
+    background-color: dimgray;
+}
+
+ul {
+    /*
+    inline-blockの開業による隙間を消すため
+    */
+    font-size:0;
+}
+
+ul + ul {
+    border-top: 1px solid #333;
+}
+
+li {
+    display: inline-block;
+    height: 48px;
+    width: 56px;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+}
+
+li + li {
+    border-left: 1px solid #333;
+}
+
+li.zero {
+    width: 113px;
+}
